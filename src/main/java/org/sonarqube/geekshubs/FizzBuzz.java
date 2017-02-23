@@ -1,8 +1,5 @@
 package org.sonarqube.geekshubs;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Created by ricardo on 23/02/17.
  */
