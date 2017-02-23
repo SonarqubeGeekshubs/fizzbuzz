@@ -13,25 +13,25 @@ public class FizzBuzzTest {
 
   @Test
   public void testResultShouldReturnFizzIfTheNumberIsDividableByThree() {
-    assertEquals("fizz", fizzBuzz.getResult(3));
+    assertEquals("Result should be Fizz", "fizz", fizzBuzz.getResult(3));
   }
 
   @Test
   public void testResultShouldReturnBuzzIfTheNumberIsDividableByFive() {
-    assertEquals("buzz", fizzBuzz.getResult(5));
-    assertEquals("buzz", fizzBuzz.getResult(10));
+    assertEquals("Result should be Buzz", "buzz", fizzBuzz.getResult(5));
+    assertEquals("Result should be Buzz", "buzz", fizzBuzz.getResult(10));
   }
 
   @Test
-  public void testResultShouldReturnBuzz() {
-    assertEquals("fizzbuzz", fizzBuzz.getResult(15));
-    assertEquals("fizzbuzz", fizzBuzz.getResult(30));
+  public void testResultShouldReturnFizzBuzzIfTheNumbreIsDividableByThreeAndFive() {
+    assertEquals("Result should be FizzBuzz", "fizzbuzz", fizzBuzz.getResult(15));
+    assertEquals("Result should be FizzBuzz","fizzbuzz", fizzBuzz.getResult(30));
   }
 
   @Test
   public void testResultShouldReturnTheSameNumberIfNoOtherRequirementIsFulfilled() {
-    assertEquals("1", fizzBuzz.getResult(1));
-    assertEquals("2", fizzBuzz.getResult(2));
-    assertEquals("4", fizzBuzz.getResult(4));
+    assertEquals("Result should be a number","1", fizzBuzz.getResult(1));
+    assertEquals("Result should be a number","2", fizzBuzz.getResult(2));
+    assertEquals("Result should be a number","4", fizzBuzz.getResult(4));
   }
 }
