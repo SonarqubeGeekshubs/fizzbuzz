@@ -1,0 +1,20 @@
+language: java
+
+sudo: false
+
+install: true
+
+addons:
+  sonarcloud:
+    organization: "sonarqubegeekshubs"
+
+jdk:
+  - oraclejdk8
+
+script:
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dmaven.test.failure.ignore=true
+
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.sonar/cache'
