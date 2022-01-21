@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/SonarqubeGeekshubs/java-maven-calculator-api/branch/master/graph/badge.svg?token=JVSPR1OR1T)](https://codecov.io/gh/SonarqubeGeekshubs/java-maven-calculator-api)
+[![codecov](https://codecov.io/gh/SonarqubeGeekshubs/fizzbuzz/branch/master/graph/badge.svg?token=UH9EW1QRUA)](https://codecov.io/gh/SonarqubeGeekshubs/fizzbuzz)
 
 # FizzBuzz
 
