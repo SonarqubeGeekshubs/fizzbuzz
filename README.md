@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/SonarqubeGeekshubs/java-maven-calculator-api/branch/master/graph/badge.svg?token=JVSPR1OR1T)](https://codecov.io/gh/SonarqubeGeekshubs/java-maven-calculator-api)
+
 # FizzBuzz
 
 From [Coding Dojo Fizz Buzz](http://codingdojo.org/kata/FizzBuzz/)
