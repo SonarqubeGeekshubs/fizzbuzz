@@ -29,4 +29,15 @@ public class FizzBuzzTest {
         assertEquals("4", FizzBuzz.getResult(4));
     }
 
+    @Test
+    public void getResultShouldReturnFizzIfTheNumberHasA3InIt() {
+        assertEquals("fizz", FizzBuzz.getResult(13));
+        assertEquals("fizz", FizzBuzz.getResult(23));
+    }
+
+    @Test
+    public void getResultShouldReturnBuzzIfTheNumberHasA5InIt() {
+        assertEquals("buzz", FizzBuzz.getResult(52));
+        assertEquals("buzz", FizzBuzz.getResult(58));
+    }
 }
